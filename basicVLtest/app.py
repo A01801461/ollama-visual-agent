@@ -2,8 +2,8 @@ import ollama
 import os
 
 # 1. Configuración
-MODELO = "qwen3.5:4b"  # Asegúrate de usar el modelo que tengas instalado
-CARPETA = "./imagenes"
+MODELO = "qwen3-vl:2b"  # Asegúrate de usar el modelo que tengas instalado
+CARPETA = "basicVLtest/imagenes"
 # PROMPT = "Describe detalladamente qué ves en esta imagen."
 PROMPT = "Di lo mas rapido que puedas lo qué ves en esta imagen."
 
